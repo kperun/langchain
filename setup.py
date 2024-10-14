@@ -10,5 +10,6 @@ setup(
     author='kperun',
     packages=['langchain-example'],
     install_requires=['pypdf', 'langchain', 'langchain-community', 'yt-dlp', 'ffmpeg', 'langchain-openai', 'chromadb',
-                      'python-dotenv','lark']
+                      'python-dotenv','lark','pinecone','pinecone-client','pinecone-text','pinecone-notebooks',
+                      'langchain-huggingface','pinecone_text','nltk']
 )
